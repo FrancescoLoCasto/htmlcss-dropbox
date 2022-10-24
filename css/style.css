@@ -82,3 +82,34 @@
     background-color: blue;
     margin-top: 90px;
 }
+
+.plane-business{
+    height: 2000px;
+    width: 100%;
+    background-color: rgb(238, 4, 74);
+}
+
+.card-plane{
+    height: 1500px;
+    width: 80%;
+    background-color: blue;
+    margin-top: 90px;
+
+}
+
+.first-card{
+    height: 800px;
+    width: 250px;
+    background-color: darkorchid;
+    border: 2px dotted yellow;
+    margin-left: 3rem;
+}
+
+.banner-under-card{
+    height: 200px;
+    width: 60%;
+    background-color: darkorchid;
+    border: 2px dotted yellow;
+    margin-top: 10rem;
+    margin-left: 20rem;
+}
