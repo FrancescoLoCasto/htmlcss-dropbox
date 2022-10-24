@@ -89,6 +89,10 @@
     background-color: rgb(238, 4, 74);
 }
 
+.title{
+    font-size: 3.5rem;
+}
+
 .card-plane{
     height: 1500px;
     width: 80%;
@@ -105,6 +109,15 @@
     margin-left: 3rem;
 }
 
+.title-card{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border: 2px dotted yellow;
+    color: azure;
+
+}
+
 .banner-under-card{
     height: 200px;
     width: 60%;
@@ -112,4 +125,19 @@
     border: 2px dotted yellow;
     margin-top: 10rem;
     margin-left: 20rem;
+}
+
+/* ------------------------------------------- */
+
+.pic-text{
+    height: 600px;
+    width: 100%;
+    background-color: forestgreen;
+}
+
+.box-pic-text{
+    height: 500px;
+    width: 70%;
+    margin-top: 50px;
+    background-color: blue;
 }
