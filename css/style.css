@@ -265,3 +265,25 @@
     background-color: cyan;
     margin-top: 6rem;
 }
+
+
+/* ------------------------------------------- */
+
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-card{
+    padding-top: 5rem;
+}
+
+.info-footer-card{
+    height: 350px;
+    width: 220px;
+    background-color: aquamarine;
+    border: 5px dotted rgb(140, 0, 255);
+    margin-left: 2rem;
+}
