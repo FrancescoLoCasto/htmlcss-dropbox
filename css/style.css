@@ -89,7 +89,6 @@
 }
 
 .plane-business{
-    height: 2000px;
     width: 100%;
 }
 
@@ -392,16 +391,26 @@ background-color: #ff1c1c;
 /* ------------------------------------------- */
 
 .faq-container{
-    width: 100%;
-    height: 700px;
-    background-color: rgb(3, 0, 207);
 }
 
 .faq-box{
-    width: 900px;
     height: 500px;
-    background-color: cyan;
     margin-top: 6rem;
+}
+
+.faq-box h1{
+    padding: 2rem 2rem 2rem 0;
+    
+    font-size: 40px;
+}
+
+.faq-box h3{
+    padding: 2rem 2rem 2rem 0;
+    font-size: 20px;
+}
+
+.faq-box i{
+    padding-left: 8rem;
 }
 
 
@@ -421,7 +430,17 @@ footer{
 .info-footer-card{
     height: 350px;
     width: 220px;
-    background-color: aquamarine;
-    border: 5px dotted rgb(140, 0, 255);
     margin-left: 2rem;
+}
+
+.info-footer-card h2{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+
+.info-footer-card ul li{
+    color: white;
+    padding: .65rem;
+    list-style: none;
 }
