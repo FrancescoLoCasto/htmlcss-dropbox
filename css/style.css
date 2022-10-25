@@ -91,7 +91,6 @@
 .plane-business{
     height: 2000px;
     width: 100%;
-    background-color: rgb(238, 4, 74);
 }
 
 .title{
@@ -99,10 +98,13 @@
 }
 
 .title-card{
-    text-align: center;
     color: black;
+    text-align: center;
     margin-top: 1rem;
+    border: 1px solid gray;
 }
+
+
 
 .title-plane{
     text-align: center;
@@ -125,17 +127,37 @@
 .card-plane{
     height: 1500px;
     width: 80%;
-    background-color: blue;
     margin-top: 90px;
+
+}
+
+.content-card{
+    margin: 1rem;
+}
+
+.button-card{
+    margin: 2rem;
+    border: none;
+    padding: .3rem;
+    background-color: #0061ff;
+}
+
+.p-card{
+    margin: 2rem;
+
+}
+
+.point-plane{
+    margin: 1rem;
 
 }
 
 .first-card{
     height: 800px;
     width: 250px;
-    background-color: darkorchid;
-    border: 2px dotted yellow;
     margin-left: 3rem;
+    border: 1px solid gray;
+
 }
 
 .title-card{
@@ -148,8 +170,6 @@
 .banner-under-card{
     height: 200px;
     width: 60%;
-    background-color: darkorchid;
-    border: 2px dotted yellow;
     margin-top: 10rem;
     margin-left: 20rem;
 }
@@ -159,14 +179,34 @@
 .pic-text{
     height: 600px;
     width: 100%;
-    background-color: forestgreen;
+}
+
+.img-tx{
+    height: 100%;
 }
 
 .box-pic-text{
     height: 500px;
     width: 70%;
     margin-top: 50px;
-    background-color: blue;
+}
+
+#testo-img h3{
+    font-size: 40px;
+}
+
+#testo-img p{
+    font-size: 20px;
+}
+
+#testo-img span{
+    margin-top: 3rem;
+    padding: 1rem;
+    border:  1px solid gray;
+}
+
+#testo-img{
+    padding: 10rem;
 }
 
 /* ------------------------------------------- */
@@ -175,38 +215,53 @@
 .dropbox-business{
     height: 1500px;
     width: 100%;
-    background-color: rgb(238, 4, 74);
-    border: 3px solid blue;
 
 }
 
 .title-business{
     width: 100%;
     height: 100px;
-    background-color: rgb(52, 12, 124);
+
+}
+
+.text-title-business{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.img-card{
+    width: 100%;
+    height: 200px;
 }
 
 .box-card{
     width: 60%;
     height: 1000px;
     margin-top: 100px;
-    background-color: chartreuse;
-    border: 3px solid blue;
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
     margin-left: 400px;
+    justify-content: space-around;
     
 }
 
 .card-business{
     height: 400px;
     width: 300px;
-    background-color: black;
-    border: 2px solid blue;
     
 }
 
+.card-business p{
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+.card-business h3{
+    font-size: 25px;
+    padding-top: 1rem;
+}
 
 /* ------------------------------------------- */
 
@@ -215,15 +270,22 @@
 .team-use{
     width: 100%;
     height: 400px;
-    background-color: darkgreen;
 
 }
 
 .team-text{
     width: 70%;
     height: 300px;
-    background-color: darkorange;
     margin-top: 3rem;
+}
+
+.team-text h1{
+    font-size: 50px;
+}
+
+.team-text a{
+    margin-top: 2rem;
+    font-size: 20px;
 }
 
 /* ------------------------------------------- */
@@ -232,54 +294,98 @@
 .boxe-cube{
     width: 100%;
     height: 700px;
-    background-color: blue;
 }
 
 .cube-container-first{
     height: 100%;
     width: 650px;
-    background-color: brown;
-    border: 2px dotted yellow;
     flex-wrap: wrap;
 }
 
 .cube-container-text{
-    height: 100%;
     width: 609px;
-    background-color: rgb(155, 1, 1);
-    border: 2px dotted yellow;
+}
+
+.cube-container-text p{
+    margin: 1rem;
+    font-size: 40px;
+}
+
+.cube-container-text h5{
+    margin: 1rem;
+    font-size: 1.3rem;
 }
 
 .cube{
     width: 320px;
     height: 349px;
-    background-color: darkblue;
-    border: 2px dotted green;
 
 }
 
+.cube img{
+    padding: 5rem;
+    width: 300px;
+    height: 300px;
+}
+
+#bg-brown{
+    background-color: #61082b;
+}
+
+#bg-yellow{
+    background-color: #ffd830;
+}
+
+#bg-green{
+    background-color: #a2d39b;
+    border: solid 10px #d1e9cd;
+}
+
+#bg-cyan{
+    background-color: #b4d0e7;
+}
+
+#bg-blue{
+    background-color: #0d2481;
+}
+
+#bg-red{
+background-color: #ff1c1c;
+
+}
+
+#bg-celest{
+    background-color: #0093ce;
+}
 /* ------------------------------------------- */
 
 
 .trial-free-container{
     width: 100%;
     height: 400px;
-    background-color: rgb(0, 58, 0);
+    background-color: #b4d0e7;
 }
 
 #text{
+    width: 400px;
     height: 300px;
-    width: 500px;
-    background-color: chartreuse;
     margin-top: 3rem;
+    margin-right: 5rem;
+}
+
+#text h1{
+    font-size: 50px;
 }
 
 #button-trial{
-    height: 200px;
-    width: 300px;
-    background-color: rgb(68, 136, 0);
-    margin-top: 3rem;
+    margin-top: 10rem;
 
+}
+
+#button-trial span{
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
 }
 
 
