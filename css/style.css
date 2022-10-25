@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .flex{
     display: flex;
 }
@@ -79,8 +83,9 @@
 }
 
 .jumbo-img{
-    width: 960px;
-    height: 520px;
+    height: 570px;
+    padding-left: 14rem;
+
 }
 
 .box{
@@ -103,7 +108,13 @@
     border: 1px solid gray;
 }
 
+i{
+    color: black;
+}
 
+b{
+    color: black;
+}
 
 .title-plane{
     text-align: center;
@@ -120,7 +131,19 @@
 }
 
 .blue-button{
+    width: 240px;
+    height: 52px;
     background-color: #0061ff;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+.annulla{
+    margin: 3rem;
+}
+
+.freccia{
+    margin: 3rem;
 }
 
 .card-plane{
@@ -152,8 +175,8 @@
 }
 
 .first-card{
-    height: 800px;
-    width: 250px;
+    height: 895px;
+    width: 260px;
     margin-left: 3rem;
     border: 1px solid gray;
 
@@ -247,8 +270,8 @@
 }
 
 .card-business{
-    height: 400px;
     width: 300px;
+    padding: 1rem;
     
 }
 
