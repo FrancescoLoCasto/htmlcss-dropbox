@@ -91,7 +91,8 @@ header{
 
 .jumbo-img{
     height: 570px;
-    padding-left: 14rem;
+    padding-left: 20rem;
+    padding-top: 3rem;
 
 }
 
@@ -388,6 +389,7 @@ background-color: #ff1c1c;
 #bg-celest{
     background-color: #0093ce;
 }
+
 /* ------------------------------------------- */
 
 
