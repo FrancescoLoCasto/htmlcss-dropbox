@@ -380,7 +380,7 @@ b{
     background-color: #0d2481;
 }
 
-#bg-red{
+.bg-red{
 background-color: #ff1c1c;
 
 }
@@ -422,8 +422,7 @@ background-color: #ff1c1c;
 
 /* ------------------------------------------- */
 
-.faq-container{
-}
+
 
 .faq-box{
     height: 500px;
